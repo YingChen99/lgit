@@ -1,0 +1,36 @@
+step 1: install git
+
+step 2: after install git first thing that we should do is set username and email address. 
+
+when we use Git to make changes to our project's files, Git users this information to identify who made these changes. Git has a tool call ed git config that allows you to set configurations to Git. so to set a username:
+
+git config --global user.name "ying Chen"
+
+git config --global user.email "ying.chen@dpi.nc.gov"
+
+git config --list
+
+git help
+
+now it's time for you to add Git to your projrct:
+
+this is done by initializing a new Git repository.
+
+A Git repository which is often abbreviated as just repo, is virual storage of your project. in other words, each project in Git is referenced as a repository
+
+To initialize a new project or a project that already exists, 
+
+cd to project folder 
+
+git init
+
+
+after init cmd if you add new files to projet need run 
+
+git add . 
+
+this cmd will add all of these files to our staging area.
+
+then type:
+
+git commit -m "first commit"
