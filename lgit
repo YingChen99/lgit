@@ -34,3 +34,29 @@ this cmd will add all of these files to our staging area.
 then type:
 
 git commit -m "first commit"
+
+if you have gitHub an ancount you can connect you local repository to gitHub by linking the two repositoeys with the Git command. this can be done with the remote add origin
+
+***
+https://github.com/YingChen99/lgit.git
+
+…or create a new repository on the command line
+
+git remote add origin https://github.com/YingChen99/lgit.git
+
+echo "# lgit" >> README.md
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/YingChen99/lgit.git
+git push -u origin master
+git remote add origin https://github.com/followingYourAcountAddress
+
+***
+To create a new repository on github 
+give a Repository name
+
+
+this command  adds the origin Github repository to our local repository by creating a link that allows us to push and pull changes between the two. now we need 
+to  push our repository that is now 
